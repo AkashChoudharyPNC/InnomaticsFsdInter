@@ -12,7 +12,7 @@
         <h1>💰Personal Budget</h1>
         <a href="#about">🔍About</a> |
         <a href="#home">🏠Home</a> |
-        <a href="#Add Expense">💲Add Expense</a> |
+        <a href="#Add Expense">➕Add Expense</a> |
         <a href="#Budget Summary">📊View Budget Summary</a>
     </header>
     <section id="home">
@@ -31,7 +31,7 @@
         </p>
     </section>
     <section id="Add Expense">
-        <h2>💲Add Expense</h2>
+        <h2>➕Add Expense</h2>
         <form>
             <table align="center">
                 <thead>
@@ -41,23 +41,23 @@
             <tbody>
                 <tr>
                     <td>
-                <lable for="category">Category : </lable>
+                <lable for="category">🗃️Category : </lable>
                 <td>
                 <select name="category" id="category">
-                    <option value="food">Food</option>
-                    <option value="transportation">Transportation</option>
-                    <option value="education">Education</option>
-                    <option value="rent">Rent</option>
-                    <option value="health">Health</option>
-                    <option value="insurance">Insurance</option>
-                    <option value="entertainment">Entertainment</option>
-                    <option value="other">Other</option>
+                    <option value="food">🍔Food</option>
+                    <option value="transportation">🚏Transportation</option>
+                    <option value="education">📚Education</option>
+                    <option value="rent">🔑Rent</option>
+                    <option value="health">⛨Health</option>
+                    <option value="insurance">🏥Insurance</option>
+                    <option value="entertainment">🎉Entertainment</option>
+                    <option value="other">🧩Other</option>
                 </select>
                 </td>
             </tr>
             <tr>
                 <td>
-                <label for="amount">Amount : </label>
+                <label for="amount">💸Amount : </label>
                 </td>
                 <td>
                 <input type="number" name="amount" id="amount">
@@ -65,7 +65,7 @@
             </tr>
             <tr>
                 <td>
-                <labbel for="description">Description : </label>
+                <labbel for="description">📝Description : </label>
                     </td>
                     <td>
                     <input type="text" name="description" id="description">
@@ -73,18 +73,18 @@
                     </tr>
             <tr>
                 <td>
-                <label for="status">Status : </label>
+                <label for="status">⏳Status : </label>
                 </td>
                 <td>
                 <select name="status" id="status">
-                    <option value="debit">Debit</option>
-                    <option value="credit">Credit</option>
+                    <option value="debit">📤Debit</option>
+                    <option value="credit">📥Credit</option>
                 </select>
                 </td>
                 </tr>
             <tr>
                 <td>
-                <label for="date">Date : </label>
+                <label for="date">🗓️Date : </label>
                 </td>
                 <td>
                 <input type="date" name="date" id="date">
@@ -92,7 +92,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-            <button type="submit">Add Expense</button>
+            <button type="submit">➕Add Expense</button>
             </td>
             </tr>
             </tbody>
@@ -104,93 +104,93 @@
         <table border="1" align="center">
             <thead>
                 <tr>
-                    <th rowspan="2">Category</th>
-                    <th colspan="2">Transaction Details</th>
-                    <th rowspan="2">Status</th>
-                    <th rowspan="2">Date</th>
-                    <th rowspan="2">Actions</th>
+                    <th rowspan="2">🗃️Category</th>
+                    <th colspan="2">💱Transaction Details</th>
+                    <th rowspan="2">⏳Status</th>
+                    <th rowspan="2">🗓️Date</th>
+                    <th rowspan="2">▶Actions</th>
                 </tr>
                 <tr>
-                    <th>Amount</th>
-                    <th>Description</th>
+                    <th>💸Amount</th>
+                    <th>📝Description</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Food</td>
+                    <td>🍔Food</td>
                     <td>$100</td>
-                    <td>McDonalds</td>
-                    <td>Debit</td>
+                    <td>🍟McDonalds</td>
+                    <td>📤Debit</td>
                     <td>2021-09-01</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>Transportation</td>
+                    <td>🚏Transportation</td>
                     <td>$50</td>
-                    <td>Bus</td>
-                    <td>Debit</td>
+                    <td>🚌Bus</td>
+                    <td>📤Debit</td>
                     <td>2021-09-02</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>Education</td>
+                    <td>📚Education</td>
                     <td>$200</td>
-                    <td>Books</td>
-                    <td>Debit</td>
+                    <td>📖Books</td>
+                    <td>📤Debit</td>
                     <td>2021-09-03</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>Rent</td>
+                    <td>🔑Rent</td>
                     <td>$500</td>
-                    <td>Apartment</td>
-                    <td>Debit</td>
+                    <td>🏢Apartment</td>
+                    <td>📤Debit</td>
                     <td>2021-09-04</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>Health</td>
+                    <td>⛨Health</td>
                     <td>$300</td>
-                    <td>Medicine</td>
-                    <td>Debit</td>
+                    <td>💊Medicine</td>
+                    <td>📤Debit</td>
                     <td>2021-09-05</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>Insurance</td>
+                    <td>🏥Insurance</td>
                     <td>$150</td>
-                    <td>Car</td>
-                    <td>Debit</td>
+                    <td>🚗Car</td>
+                    <td>📤Debit</td>
                     <td>2021-09-06</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>Entertainment</td>
+                    <td>🎉Entertainment</td>
                     <td>$100</td>
-                    <td>Movie</td>
-                    <td>Debit</td>
+                    <td>🎬Movie</td>
+                    <td>📤Debit</td>
                     <td>2021-09-07</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button>✎Edit</button>
+                        <button>🗑️Delete</button>
                     </td>
                 </tr>
                 <tr>
